@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="80">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop stop-color="#16D5D9" offset="0%"/>
+            <stop stop-color="#143FCC" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="evenodd" d="M239.982 119.708v-18.86c-2.272-.554-4.645-.848-7.087-.848-16.51 0-29.895 13.432-29.895 30 0 12.545 24.925 50.027 29.895 50 4.893.027 29.894-37.625 29.894-50 0-12.008-7.036-22.37-17.19-27.163l-.18 26.607c.01.2.014.402.014.604 0 6.905-5.578 12.5-12.456 12.5-6.88 0-12.456-5.595-12.456-12.5s5.577-12.5 12.456-12.5c2.597 0 5.008.797 7.003 2.16z" transform="translate(-203 -100)"/>
+</svg>

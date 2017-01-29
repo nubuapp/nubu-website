@@ -1,13 +1,12 @@
 import React from "react"
 
-import LatestPosts from "../../components/LatestPosts"
 import Page from "../Page"
+
+import styles from "./index.css"
 
 const Homepage = (props) => {
   return (
-    <Page { ...props }>
-      <LatestPosts />
-    </Page>
+    <Page { ...props } bodyExtraClass={ styles.homeBody } />
   )
 }
 

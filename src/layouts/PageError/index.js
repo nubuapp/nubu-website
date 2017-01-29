@@ -20,13 +20,7 @@ const PageError = ({ error, errorText }) => (
           { errorText }
         </p>
         {
-          error === 404 &&
-          <div>
-            { "It seems you found a broken link. " }
-            { "Sorry about that. " }
-            <br />
-            { "Do not hesitate to report this page 😁." }
-          </div>
+          error === 404
         }
       </div>
     </div>

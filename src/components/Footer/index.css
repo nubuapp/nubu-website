@@ -1,14 +1,24 @@
 .footer {
+  position: relative;
+  background-color: blue;
   text-align: center;
 }
 
-.phenomicReference {
-  font-size: 0.75rem;
-  opacity: 0.6;
-  color: inherit;
-  text-decoration: none;
+.shareIcons {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.phenomicReferenceName {
-  font-weight: 100;
+.shareIconLink {
+  padding: 0 20px;
+  opacity: 0.4;
+  transition: opacity 0.5s ease;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 1;
+  }
 }

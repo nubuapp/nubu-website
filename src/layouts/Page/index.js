@@ -1,9 +1,10 @@
 import React, { PropTypes } from "react"
+import classnames from "classnames"
+
 import Helmet from "react-helmet"
 import warning from "warning"
-import { BodyContainer, joinUri, Link } from "phenomic"
+import { BodyContainer, joinUri } from "phenomic"
 
-import Button from "../../components/Button"
 import Loading from "../../components/Loading"
 
 import styles from "./index.css"
@@ -18,6 +19,7 @@ const Page = (
     header,
     footer,
     children,
+    bodyExtraClass
   },
   {
     metadata: { pkg },
@@ -56,35 +58,13 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      {
-        <div
-          className={ styles.hero }
-          style={ head.hero && {
-            background: `#111 url(${ head.hero }) 50% 50% / cover`,
-          } }
-        >
-          <div className={ styles.header }>
-            <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{ head.title }</h1>
-              {
-                head.cta &&
-                <Link to={ head.cta.link }>
-                  <Button className={ styles.cta } light { ...head.cta.props }>
-                    { head.cta.label }
-                  </Button>
-                </Link>
-              }
-            </div>
-          </div>
-        </div>
-      }
       <div className={ styles.wrapper + " " + styles.pageContent }>
         { header }
         <div className={ styles.body }>
           {
             isLoading
             ? <Loading />
-            : <BodyContainer>{ body }</BodyContainer>
+            : <BodyContainer className={ classnames(styles.body, bodyExtraClass) }>{ body }</BodyContainer>
           }
         </div>
         { children }
@@ -103,6 +83,7 @@ Page.propTypes = {
   body: PropTypes.string,
   header: PropTypes.element,
   footer: PropTypes.element,
+  bodyExtraClass: PropTypes.string
 }
 
 Page.contextTypes = {
