@@ -2,7 +2,7 @@
   "private": true,
   "name": "nubu-website",
   "homepage": "https://nubu.io",
-  "twitter": "",
+  "twitter": "nubuapp",
   "repository": "https://github.com/nubuapp/nubu-website",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",

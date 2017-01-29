@@ -1,5 +1,6 @@
 ---
 title: nubu app - discover events world wide
+description: With millions of events worldwide, nubu helps you to discover events in your area.
 layout: Homepage
 ---
 
