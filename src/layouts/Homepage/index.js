@@ -9,7 +9,7 @@ const Homepage = (props) => {
   return (
     <Page { ...props }>
       <MailingList />
-      <img src="/assets/images/phone-in-hand-background.jpg" alt="nubu app" className={ styles.phoneImage} />
+      <div className={ styles.phoneImage} />
     </Page>
   )
 }

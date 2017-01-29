@@ -44,6 +44,13 @@ body {
 }
 
 /*
+ * Typography
+ */
+h1,h2,h3,h4,h5 {
+  line-height: 2rem;
+}
+
+/*
  * .phenomic-HeadingAnchor
  *
  * anchors for markdown headings, generated via markdown renderer, so require
