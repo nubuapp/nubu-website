@@ -1,6 +1,6 @@
 # nubu.io website
 
-This is the repository for the nubu.io website.
+This is the repository for the [nubu.io](https://nubu.io) website.
 
 We’re using [Phenomic](https://github.com/MoOx/phenomic) as a static site generator, creating a nice React single page application.
 
