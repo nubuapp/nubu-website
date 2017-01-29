@@ -92,6 +92,35 @@ hr {
 }
 
 /*
+ * Form
+ */
+
+input {
+  margin: 5px;
+  padding: 0.8rem;
+  border: 0;
+  outline: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  transition: opacity 0.5s ease;
+  -webkit-appearance: none;
+
+  &:hover {
+     opacity: 0.9;
+   }
+}
+
+
+button, input[type="submit"] {
+  padding: 1rem 2.2rem;
+  background: var(--colorNeutral);
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+/*
  * Fonts
  */
 

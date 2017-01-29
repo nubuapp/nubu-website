@@ -1,0 +1,9 @@
+:root {
+  --button-primary: {
+    background: var(--colorPrimaryDark);
+    background: -moz-linear-gradient(-45deg, var(--colorPrimaryDark) 0%, var(--colorPrimary) 100%);
+    background: -webkit-linear-gradient(-45deg, var(--colorPrimaryDark) 0%, var(--colorPrimary) 100%);
+    background: linear-gradient(135deg, var(--colorPrimaryDark) 0%, var(--colorPrimary) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#143fcc',endColorstr='#16d5d9',GradientType=1);
+  }
+}

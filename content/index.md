@@ -11,5 +11,3 @@ Here at nubu, we love nights out and want to develop an app to help you discover
 Give it a try and let us know what you think. Register below for the chance to receieve an invite for our first release of nubu v0.7 beta for iOS.
 
 </div>
-
-![The nubu app ](/assets/images/phone-in-hand-background.jpg "The nubu app ")

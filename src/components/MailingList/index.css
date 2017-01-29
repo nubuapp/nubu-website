@@ -1,0 +1,13 @@
+@import "../../variables.global.css";
+
+.wrapper {
+  text-align: center;
+
+  & input[type='email'] {
+      min-width: 250px;
+    }
+
+  & input[type=submit] {
+    @apply --button-primary;
+  }
+}
