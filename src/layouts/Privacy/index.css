@@ -1,0 +1,8 @@
+.privacyWrapper {
+  max-width: var(--maxWidthNarrow);
+  margin: 0 auto;
+}
+
+.privacyWrapper h1 {
+  text-align: center;
+}

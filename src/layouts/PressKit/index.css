@@ -1,0 +1,17 @@
+.pressKitWrapper {
+  max-width: var(--maxWidthNarrow);
+  margin: 0 auto;
+}
+
+.pressKitWrapper h1 {
+  text-align: center;
+}
+
+.pressKitWrapper img {
+  margin-right: 20px;
+}
+
+.pressKitWrapper a:hover {
+  text-decoration: none;
+  border-bottom-color: transparent;
+}

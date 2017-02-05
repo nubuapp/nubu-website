@@ -4,10 +4,10 @@ import styles from "./index.css"
 
 const Header = () => (
   <header className={ styles.header }>
-    <div className={ styles.logo }>
-      <img src="/assets/images/nubu.svg" alt="nubu" />
-      <span>nubu</span>
-    </div>
+      <a href="/" className={ styles.logo }>
+        <img src="/assets/images/nubu.svg" alt="nubu" />
+        <span>nubu</span>
+      </a>
   </header>
 )
 

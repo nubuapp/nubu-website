@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="32px" viewBox="0 0 35 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>gitlab</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-589.000000, -1467.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(407.000000, 1434.000000)">
+                <g id="gitlab" transform="translate(200.046579, 48.406840) scale(1, -1) translate(-200.046579, -48.406840) translate(182.046579, 31.906840)">
+                    <g id="g44" transform="translate(0.037170, 0.054144)" fill-opacity="0" fill="#FFFFFF">
+                        <path d="M34.375545,13.6011642 L32.4500487,19.5270795 L28.6339906,31.2718711 C28.4377052,31.8760982 27.5827883,31.8760982 27.3864098,31.2718711 L23.5702585,19.5270795 L10.898352,19.5270795 L7.08210753,31.2718711 C6.88582225,31.8760982 6.03090524,31.8760982 5.83452678,31.2718711 L2.01846865,19.5270795 L0.0930655001,13.6011642 C-0.0826317303,13.0606576 0.109834058,12.4685412 0.569572038,12.1344742 L17.2342587,0.0269228523 L33.8990385,12.1344742 C34.3587765,12.4685412 34.5511491,13.0606576 34.375545,13.6011642" id="path46"></path>
+                    </g>
+                    <g id="g48" transform="translate(10.913388, 0.081067)" fill="#FFFFFF">
+                        <polygon id="path50" points="6.35807844 0 6.35807844 0 12.6940783 19.5001567 0.0220786005 19.5001567"></polygon>
+                    </g>
+                    <g id="g56" transform="translate(1.993446, 0.081104)" fill-opacity="0" fill="#FC6D26">
+                        <polygon id="path58" points="15.27802 0 8.94202012 19.5000636 0.0622299839 19.5000636"></polygon>
+                    </g>
+                    <g id="g64" transform="translate(0.006186, 0.017877)" fill="#FFFFFF">
+                        <path d="M2.04949049,19.5633183 L2.04949049,19.5633183 L0.123994174,13.6374028 C-0.0516098968,13.0968963 0.140762733,12.5047799 0.600593872,12.1708061 L17.2652805,0.0632547292 L2.04949049,19.5633183 L2.04949049,19.5633183 Z" id="path66"></path>
+                    </g>
+                    <g id="g72" transform="translate(2.055676, 19.581177)" fill="#FFFFFF">
+                        <path d="M0,0 L8.87979018,0 L5.06363888,11.7447915 C4.86726043,12.3491118 4.01234342,12.3491118 3.81605813,11.7447915 L0,0 L0,0 Z" id="path74"></path>
+                    </g>
+                    <g id="g76" transform="translate(17.271466, 0.081104)" fill-opacity="0" fill="#FC6D26">
+                        <polygon id="path78" points="0 0 6.33599984 19.5000636 15.21579 19.5000636"></polygon>
+                    </g>
+                    <g id="g80" transform="translate(17.209227, 0.017877)" fill="#FFFFFF">
+                        <path d="M15.27802,19.5633183 L15.27802,19.5633183 L17.2035163,13.6374028 C17.3791203,13.0968963 17.1867477,12.5047799 16.7269166,12.1708061 L0.0622299839,0.0632547292 L15.27802,19.5633183 L15.27802,19.5633183 Z" id="path82"></path>
+                    </g>
+                    <g id="g84" transform="translate(23.544016, 19.581177)" fill="#FFFFFF">
+                        <path d="M8.94323123,0 L0.0634410464,0 L3.87959234,11.7447915 C4.07597079,12.3491118 4.9308878,12.3491118 5.12717309,11.7447915 L8.94323123,0 L8.94323123,0 Z" id="path86"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

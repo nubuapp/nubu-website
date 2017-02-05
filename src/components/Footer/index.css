@@ -1,19 +1,23 @@
 .footer {
-  position: relative;
-  background-color: blue;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  padding: 50px;
+  border-top: 1px solid rgba(255,255,255, 0.1);
+}
+
+.footer h2 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 .shareIcons {
   width: 100%;
-  bottom: 0;
-  position: absolute;
-  text-align: center;
-  padding: 20px 0;
 }
 
 .shareIconLink {
-  padding: 0 20px;
+  padding: 0 40px 0 0;
   opacity: 0.4;
   transition: opacity 0.5s ease;
   text-decoration: none;
@@ -21,4 +25,28 @@
   &:hover {
     opacity: 1;
   }
+}
+
+.footer ul {
+  -webkit-padding-start: 0px;
+  list-style: circle;
+}
+
+.footer ul li {
+  list-style: circle;
+  display: inline-block;
+}
+
+.footer ul li:not(:last-child):after {
+  content: "•";
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+.footer a {
+  &:hover {
+     text-decoration: none;
+   }
 }

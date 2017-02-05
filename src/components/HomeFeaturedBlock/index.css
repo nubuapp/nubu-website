@@ -1,0 +1,71 @@
+@import "../../variables.global.css";
+
+.featuredBlock {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.featuredBlockContent .header {
+  font-size: 2rem;
+  line-height: 0.75;
+}
+
+.featuredBlockContent .header span {
+  font-size: 3rem;
+  line-height: 0.75;
+}
+
+.featuredBlockContent {
+  flex: 5;
+}
+
+.featuredBlockImage {
+  flex: 3;
+}
+
+.phoneImage {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (min-width: 769px) {
+  .featuredBlock {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 120vh;
+    max-height: 800px;
+  }
+
+  .featuredBlock:nth-child(odd) .featuredBlockContent {
+    order: 2;
+  }
+
+  .featuredBlock:nth-child(odd) .featuredBlockImage {
+    order: 1;
+  }
+
+  .featuredBlockContent .header {
+    font-size: 4rem;
+  }
+
+  .featuredBlockContent .header span {
+    font-size: 5rem;
+  }
+
+  .featuredBlockContent p {
+    max-width: 70%;
+  }
+}

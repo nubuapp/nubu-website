@@ -1,6 +1,7 @@
 @import "../../variables.global.css";
 
 .wrapper {
+  margin-bottom: 50px;
   text-align: center;
 
   & input[type='email'] {

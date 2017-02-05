@@ -12,7 +12,7 @@ const PageError = ({ error, errorText }) => (
     }}
   >
     <div className={ styles.container }>
-      <div className={ styles.oops }>{ "😱 Oooops!" }</div>
+      <div className={ styles.oops }>{ "😱 " }</div>
       <div className={ styles.text }>
         <p className={ styles.title }>
           <strong>{ error }</strong>

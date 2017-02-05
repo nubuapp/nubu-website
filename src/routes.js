@@ -6,6 +6,8 @@ import AppContainer from "./AppContainer"
 import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
+import PressKit from "./layouts/PressKit"
+import Privacy from "./layouts/Privacy"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -14,6 +16,8 @@ const PageContainer = (props) => (
       Page,
       PageError,
       Homepage,
+      PressKit,
+      Privacy
     }}
   />
 )

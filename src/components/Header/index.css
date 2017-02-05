@@ -10,6 +10,10 @@
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+
+  &:hover {
+     text-decoration: none;
+  }
 }
 
 .logo span {
