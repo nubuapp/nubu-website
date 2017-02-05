@@ -15,7 +15,7 @@ featuredBlocks:
     }
     - {
     title: "Built with <br/> <span class='title-red'>Love</span>",
-    description: "To make nubu the best event finding app we believe user feedback is paramount. We work hard on all your suggestions, making improvments and releasing updates every month. To make suggestion simply shake your phone whilst using the app.",
+    description: "To make nubu the best event finding app we believe user feedback is paramount. We work hard on all your suggestions, making improvments and releasing updates every month. To make suggestions simply shake your phone whilst using the app.",
     image: "/assets/images/phone-details-view.png"
     }
 ---
