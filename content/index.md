@@ -6,7 +6,7 @@ featuredBlocks:
     - {
     title: "Find events <br /><span class='title-blue'>worldwide</span>",
     description: "With millions of events, from House to Rock, Jazz to HipHop, nubu helps find the right event for you whether you are in your home town or travelling the world.",
-    image: "/assets/images/phone-list-view10.png"
+    image: "/assets/images/phone-list-view.png"
     }
     - {
     title: "<span class='title-green'>personalise</span> <br />your events",
