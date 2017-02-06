@@ -7,10 +7,11 @@ import styles from "./index.css"
 class PressKit extends Component {
   constructor(props) {
     super(props);
+    const scrollTop = (typeof document !== "undefined") ? document.body.scrollTop : null
 
     this.state = {
       scrollPosition: 0,
-      gradientDegree: 40 + (document.body.scrollTop / 20)
+      gradientDegree: 40 + (scrollTop / 20)
     }
   }
 
@@ -24,10 +25,11 @@ class PressKit extends Component {
   }
 
   handleScroll() {
+    const scrollTop = (typeof document !== "undefined") ? document.body.scrollTop : null
     if (!this.isUnmounted) {
       this.setState({
-        scrollPosition: document.body.scrollTop,
-        gradientDegree: 40 + (document.body.scrollTop / 20)
+        scrollPosition: scrollTop,
+        gradientDegree: 40 + (scrollTop / 20)
       })
     }
   }
