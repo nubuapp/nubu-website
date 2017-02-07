@@ -33,7 +33,7 @@ With millions of events, from House to Rock, Jazz to HipHop, nubu helps find the
 
 ## Requirements
 - nubu works on iphone 5+ and iOS 9+
-- AppStore link https://appsto.re/en
+- [AppStore link](https://appsto.re/gb/QRD_gb.i)
 
 ## Contact Information
 nubu  

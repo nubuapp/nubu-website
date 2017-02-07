@@ -38,7 +38,11 @@ class Homepage extends Component {
   render() {
     return (
       <Page { ...this.props }>
-        <Svg svg={ availbleOnIphone } className={ styles.availableOnIphone } />
+        <a href="https://appsto.re/gb/QRD_gb.i">
+          <center>
+            <Svg svg={ availbleOnIphone } className={ styles.availableOnIphone } />
+          </center>
+        </a>
         <div style={{height: '100vh', width: '100%', left: 0, top: 0, position: 'fixed', zIndex: '-1', background: `-webkit-linear-gradient(-${this.state.gradientDegree}deg, #121212 10%,#1f1f1f 100%)`}}></div>
         <div className={styles.featuredBlocks}>
           {
