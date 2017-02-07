@@ -9,6 +9,8 @@
   }
 }
 
-.availableOnIphone {
+
+.availableOnIphone svg {
+  display: block;
   margin: 2rem auto;
 }

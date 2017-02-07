@@ -9,7 +9,7 @@
   align-self: center;
   width: 100%;
   max-width: var(--maxWidth);
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .body {

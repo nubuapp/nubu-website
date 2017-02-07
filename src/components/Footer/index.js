@@ -32,6 +32,7 @@ const Footer = () => (
       <li><a href="/privacy">Privacy Policy</a></li>
       <li><a href="/presskit">Press Kit</a></li>
       <li><a href="mailto:hello@nubu.io" target="_top">Get in touch</a></li>
+      <li><a href="https://appsto.re/gb/QRD_gb.i">Download on the App Store</a></li>
     </ul>
   </footer>
 )
