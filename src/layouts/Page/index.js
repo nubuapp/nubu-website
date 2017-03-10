@@ -33,20 +33,17 @@ const Page = (
   const metaTitle = head.metaTitle ? head.metaTitle : head.title
 
   const meta = [
-    { property: "og:type", content: "article" },
-    { property: "og:title", content: metaTitle },
-    {
-      property: "og:url",
-      content: joinUri(process.env.PHENOMIC_USER_URL, __url),
-    },
-    { property: "og:image", content: pkg.homepage + "/assets/images/phone-in-hand.jpg" },
-    { property: "og:description", content: head.description },
-    { name: "twitter:card", content: "summary" },
-    { name: "twitter:title", content: metaTitle },
-    { name: "twitter:creator", content: `@${ pkg.twitter }` },
-    { name: "twitter:description", content: head.description },
-    { name: "twitter:image", content: pkg.homepage + "/assets/images/phone-in-hand.jpg" },
-    { name: "description", content: head.description },
+    { content: "article", property: "og:type" },
+    { content: metaTitle, property: "og:title" },
+    { content: joinUri(process.env.PHENOMIC_USER_URL, __url), property: "og:url" },
+    { content: pkg.homepage + "/assets/images/phone-in-hand.jpg", property: "og:image" },
+    { content: head.description, property: "og:description" },
+    { content: "summary", name: "twitter:card" },
+    { content: metaTitle, name: "twitter:title" },
+    { content: `@${ pkg.twitter }`, name: "twitter:creator" },
+    { content: head.description, name: "twitter:description" },
+    { content: pkg.homepage + "/assets/images/phone-in-hand.jpg", name: "twitter:image" },
+    { content: head.description, name: "description" },
   ]
 
   return (
