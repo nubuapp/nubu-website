@@ -9,7 +9,7 @@ const HomeFeaturedBlock = ({ title, description, image}) => {
   return (
     <div className={ styles.featuredBlock }>
       <div className={ styles.featuredBlockContent }>
-        <h2 className={ styles.header } dangerouslySetInnerHTML={ blockTitle } />
+        <h1 className={ styles.header } dangerouslySetInnerHTML={ blockTitle } />
         <p>{ description }</p>
       </div>
       <div className={ styles.featuredBlockImage }>

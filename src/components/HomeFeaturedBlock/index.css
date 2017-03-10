@@ -1,6 +1,7 @@
 @import "../../variables.global.css";
 
 .featuredBlock {
+  margin: 50px 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -30,12 +31,14 @@
 }
 
 .phoneImage {
+  max-height: 100vh;
   max-width: 80%;
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .featuredBlock {
     display: -ms-flexbox;
     display: flex;
@@ -53,19 +56,38 @@
     order: 2;
   }
 
+  .featuredBlock:nth-child(even) .featuredBlockImage .phoneImage {
+    float: right;
+  }
+
   .featuredBlock:nth-child(odd) .featuredBlockImage {
     order: 1;
   }
 
+  .featuredBlockContent .header {
+    font-size: 3rem;
+  }
+
+  .featuredBlockContent .header span {
+    font-size: 4rem;
+  }
+
+  .featuredBlockContent p {
+    max-width: 70%;
+  }
+
+  .phoneImage {
+    margin: 0;
+  }
+}
+
+
+@media (min-width: 992px) {
   .featuredBlockContent .header {
     font-size: 4rem;
   }
 
   .featuredBlockContent .header span {
     font-size: 5rem;
-  }
-
-  .featuredBlockContent p {
-    max-width: 70%;
   }
 }
