@@ -46,11 +46,25 @@ const Page = (
     { content: head.description, name: "description" },
   ]
 
+  const script = [
+    { type: "application/ld+json", innerHTML: `{
+      "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "nubu",
+      "url" : "https://nubu.io",
+      "sameAs" : [
+        "https://twitter.com/nubuapp",
+        "https://www.facebook.com/nubuapp"
+       ]
+    }`}
+  ]
+
   return (
     <div className={ styles.page }>
       <Helmet
         title={ metaTitle }
         meta={ meta }
+        script={ script }
       />
       <div className={ styles.wrapper + " " + styles.pageContent }>
         { header }
